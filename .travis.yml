@@ -16,8 +16,7 @@ script: "./gradlew build test"
 install: "./gradlew setupCIWorkspace"
 
 branches:
-  only:
-    - AffectsBosses
+  only: AffectsBosses
 
 deploy:
   provider: releases
