@@ -23,5 +23,4 @@ deploy:
   - "build/libs/*.jar"
   skip_cleanup: true
   on:
-    branch: 
-      - AffectsBosses 
+    branch: AffectsBosses
